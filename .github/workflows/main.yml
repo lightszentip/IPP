@@ -23,4 +23,4 @@ jobs:
         ini-values: post_max_size=256M, max_execution_time=180
         coverage: xdebug
     - uses: php-actions/composer@v6 # or alternative dependency management
-    - run: ./vendor/bin/phpunit --verbose test
+    - run: ./vendor/bin/phpunit test
